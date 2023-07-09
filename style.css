@@ -1,0 +1,46 @@
+.NavBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cd29ff;
+}
+.navButton {
+    color:rgb(0, 0, 0);
+    margin: 50px 100px 50px 100px;
+}
+
+.Portrait {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Picture, .About {
+    flex: 0 0 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myPic {
+    margin: 50px 0px 50px 0px;
+    height: 500px;
+    width: 500px;
+}
+
+.aboutDes {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 150px 50px 150px 50px;
+}
+
+.Split {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-image: url("./media/background.png");
+    margin: 0px 0px 0px 0px;
+}
